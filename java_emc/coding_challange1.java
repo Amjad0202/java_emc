@@ -73,3 +73,61 @@ class coding_challange1{
     }
 }
 */
+
+
+/*
+class coding_challange1{
+    public static void main(String[] args) {
+        
+        boolean cricket = false;
+        boolean football =false;
+
+        if (cricket||football){
+            System.out.println("play");
+        }
+
+        else {
+            System.out.println("not playing");
+        }
+    }
+}
+     */
+
+
+/* 
+//check a number that can divisable 3
+import java.util.Scanner;
+
+class coding_challange1{
+    public static void main(String[] args) {
+        Scanner num= new Scanner(System.in);
+        int num1=num.nextInt();
+
+        if(num1%3==0){
+            System.out.println("divisable");
+        }
+        else{
+            System.out.println("not divisable");
+        }
+    }
+}
+    */
+
+//get input for a number and find it is even or odd number
+
+import java.util.Scanner;
+
+class coding_challange1{
+    public static void main(String[] args) {
+        
+        Scanner getting = new Scanner(System.in);
+        int get1 = getting.nextInt();
+
+        if (get1%2==0){
+            System.out.println("an odd number");
+        }
+        else{
+            System.out.println("its an odd");
+        }
+    }
+}
